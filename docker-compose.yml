@@ -1,0 +1,17 @@
+version: '3'
+services:
+  master:
+    build: .
+    command: python master_node.py
+    volumes:
+      - ./data:/app/data
+  worker:
+    build: .
+    command: python worker_node.py
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - master
+    deploy:
+      mode: replicated
+      replicas: 4
