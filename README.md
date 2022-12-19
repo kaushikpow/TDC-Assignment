@@ -1,7 +1,7 @@
 # TDC-Assignment
 This repository has the implementation logic for building a distributed system for image processing
 
- Sai Krishna Kaushik Garlapati
+Sai Krishna Kaushik Garlapati
 ID - 029336162
 Implement a Distributed System for Image Processing
 Assignment: 
@@ -11,7 +11,7 @@ Once you have chosen a language and a protocol, you will need to implement the f
 1.	A master node that is responsible for dividing the input image into smaller chunks and distributing them to the worker nodes. The master node should also be responsible for collecting the processed chunks from the worker nodes and reassembling them into a single output image.
 2.	A worker node that is responsible for receiving a chunk of the input image from the master node, processing it, and returning the processed chunk to the master node. The processing step can be anything you wish - for example, you could implement a simple image filtering algorithm or something more complex like facial recognition.
 3.	A simple client program that can be used to submit an input image to the master node for processing. The client program should be able to display the output image once it has been processed by the worker nodes.
- Required Tools:-
+Required Tools:-
 Docker
 Docker Compose
 Python
