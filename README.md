@@ -3,7 +3,9 @@ This repository has the implementation logic for building a distributed system f
 
 Sai Krishna Kaushik Garlapati
 ID - 029336162
+
 Implement a Distributed System for Image Processing
+
 Assignment: 
 In this assignment, you will implement a distributed system for processing images in parallel. The system will consist of a number of worker nodes, each of which will be responsible for processing a portion of the input image.
 To begin, you will need to choose a programming language and a communication protocol for the worker nodes to use to communicate with each other. You may choose any language and protocol you wish, but it should be one that is well-suited to distributed computing.
@@ -11,6 +13,7 @@ Once you have chosen a language and a protocol, you will need to implement the f
 1.	A master node that is responsible for dividing the input image into smaller chunks and distributing them to the worker nodes. The master node should also be responsible for collecting the processed chunks from the worker nodes and reassembling them into a single output image.
 2.	A worker node that is responsible for receiving a chunk of the input image from the master node, processing it, and returning the processed chunk to the master node. The processing step can be anything you wish - for example, you could implement a simple image filtering algorithm or something more complex like facial recognition.
 3.	A simple client program that can be used to submit an input image to the master node for processing. The client program should be able to display the output image once it has been processed by the worker nodes.
+
 Required Tools:-
 Docker
 Docker Compose
